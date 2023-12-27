@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <header>
+        <h1>Forms</h1>
+    </header>
+    <main>
+        <form action="/HTML/FirstProject.html" method="post">
+
+            <label for="name">
+                Name : 
+            </label>
+            <input type="text" placeholder="Enter your name here" name="Name" id="name"> <br>
+
+            <label for="pwd">
+                Password : 
+            </label>
+            <input type="password" id="pwd" placeholder="Enter password here" name="Password"><br>
+
+            <label for="phone">
+                Contact : 
+            </label>
+
+            <input type="tel" name="contact" id="phone" value="00000000"><br>
+            <input type="submit" value="Submit"><br>
+
+            Date : <input type="date" name="cal" id="cal"><br>
+            File : <input type="file" name="file" id=""><br>
+            Color : <input type="color" name="color" id=""><br>
+            Range : <input type="range"><br>
+            Button : <input type="button" name="" id="" value="Enter"> 
+            <hr>
+            <label for="male">
+                Male : 
+            </label>
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="female">
+                Female : 
+            </label>
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="tg">
+                Transgender : 
+            </label>
+            <input type="radio" name="gender" id="tg" value="Transgender">
+            <hr>
+
+            <label for="1"> 1. </label>
+            <input type="checkbox" name="item1" id="1"><br>
+            <label for="2"> 2. </label>
+            <input type="checkbox" name="item2" id="2"><br>
+            <label for="3"> 3. </label>
+            <input type="checkbox" name="item3" id="3"><br>
+            <label for="4"> 4. </label>
+            <input type="checkbox" name="item1" id="4"><br>
+            <input type="button" value="Select Selected">
+            <input type="button" value="Select All" name="" id="">
+            <input type="button" value="Select None" name="" id="">
+            <hr>
+            <label for="fruits">Select Fruits : </label><br>
+            <select name="fruits" id="fruits">
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Cherry">Cherry</option>
+                <option value="Plum">Plum</option>
+                <option value="Mango">Mango </option>
+            </select>
+            <hr>
+            <textarea name="textarea" id="textarea" cols="50" rows="10">
+                Enter text here!
+            </textarea>
+            <hr>
+            <iframe src="https://www.google.co.in/" frameborder="0"></iframe>
+            <hr>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56047.48434479006!2d76.99492290006738!3d28.600743640698507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1dd61eb460af%3A0xe89377d97456bc5e!2sVegas%20Mall!5e0!3m2!1sen!2sin!4v1703432291880!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <hr>
+            <iframe src="/HTML/FirstProject.html" frameborder="0"></iframe>
+
+        </form>
+    </main>
+</body>
+</html>
