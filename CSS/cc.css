@@ -1,0 +1,20 @@
+h1 {
+    font-size: 70px;
+    
+}
+
+img {
+    height: 500px;
+    width: 400px;;
+    transition: transform 0.2s;
+    display: block;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+img:hover {
+    transform: rotate(30deg) scale(1.2);
+}
